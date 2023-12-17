@@ -1,0 +1,46 @@
+.line {
+    fill: none;
+    stroke-width: 2;
+    text-anchor: end;
+}
+
+.title {
+    font-weight: bold;
+    font-size: medium;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.x.axis.label {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.y.axis.label {
+    text-anchor: end;
+}
+
+.label {
+    font-size: small;
+}
+
+text.series {
+    text-anchor: start;
+    text-align: left;
+}
+
+text.symbol, text.legend.symbol {
+    fill: white;
+    font-size: x-small;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+text.legend.title {
+    fill: black;
+    font-size: small;
+}
+
+circle.legend.symbol {
+    fill: black;
+}
